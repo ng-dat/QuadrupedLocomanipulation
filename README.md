@@ -1,0 +1,2 @@
+# QuadrupedLocomanipulation
+DRCL - USC
