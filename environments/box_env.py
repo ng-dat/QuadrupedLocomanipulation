@@ -7,15 +7,15 @@ import pybullet_utils.bullet_client as bc
 import pybullet_data
 import numpy as np
 
-from box_robot import BoxRobot
-from objects import EnvObject
+from .box_robot import BoxRobot
+from .objects import EnvObject
 
 
 class Config():
     def __init__(self):
         self.is_render = True
         if self.is_render:
-            self.dt = 1
+            self.dt = 1/50
         else:
             self.dt = 1
 
